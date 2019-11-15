@@ -1,0 +1,125 @@
+@charset "utf-8";
+@import "base";
+#topbox{
+    background: #272727;
+    #top{
+        height:40px;
+        width:1226px;
+        margin:0 auto;position: relative;
+        .topnav{
+            height:40px;
+            width:752px;
+            float: left;
+            line-height: 40px;
+            a{color: white;}
+            span{color: white;width:21.33px; display:inline-block;text-align: center;}
+        }
+        a,span{color:white;display: inline-block;height:40px;line-height: 40px;}
+        span{width:21.33px;text-align: center;}
+        .first{margin-left:190px;}
+        .last{width:120px;background: #424242;text-align: center;}
+        
+    }
+}
+
+.car_msg{
+    height:100px;width:250px;position: absolute;right: 0px;top:40px;background: white;
+    line-height: 100px;text-align: center;display: none;z-index: 1;
+}            
+#headerbox{
+    background: #141414;
+    height:92px;padding-bottom:10px;
+    #head{
+        width:1226px;height:92px;margin:0 auto;position: relative;
+        a{height:70px;width:234px;position: absolute;bottom: 10px;}
+        #search{position: absolute;right: 0;bottom: 20px;
+            height:44px;
+            input{height:42px;width:422px;border-color:gray;float: left;
+                background: #141414;color: white;text-indent: 150px;}
+            .search{height: 42px;border:1px solid gray;display: inline-block;background: #141414;border-left:none;
+                width:60px;text-align: center;line-height: 42px;cursor: pointer;
+            }
+        }
+    }
+}
+
+// nav
+#navbox{
+    background: #141414;
+    height:38px;
+    border-bottom: #00eef3 2px solid;position: relative;
+    #nav{width:1226px;height:38px;margin:0 auto;
+        .first-title{line-height: 38px;background:#00eef3;height:38px;width:234px;color:gray ;float: left;
+            .first-title-img{float: right;margin-right:20px;margin-top: 15px;}
+            span{margin-left:30px;font-size:14px;}
+        }
+        .topnav-title{color:white;font-size: 17px;padding-left:22px ;line-height: 38px;height:38px;display: inline-block;
+            .nav_list{height:234px;width:100%;position: absolute;left:0;top:38px;display: none;z-index:2;background:white;
+                ._good{height:234px;width:16.66%;float: left;
+                    div{width:100%;margin-top:5px;
+                        img{display: inline-block;height:150px;width:150px;}
+                        text-align: center;
+                    }
+                    .title{height:20px;line-height: 20px;}
+                    .price{height: 20px;line-height: 20px;color: skyblue;}
+                }
+            }
+        }
+
+    }
+    
+}
+#listbox{
+    height:450px;position: absolute;top:38px;width:234px;display:none;
+    #list{height:450px;width:234px;position: absolute;right:0;left:0;top:0;bottom: 0;
+        margin:auto;
+        ul {
+            width:234px;height:450px;
+            background: #141414;
+            opacity: 1;display: block;
+            float: left;
+            .active{background: #00eef3;}
+            li{height:50px;width:234px;color: white;font-size: 18px;line-height: 50px;
+                span{color: white;}
+                .first{margin-left:35px;
+                    }
+                .second{font-size: 20px;float:right;margin-right:20px;}
+                #_list{height:450px;width:500px;float:left;background: white;display: none;
+                    position: absolute;left:234px;top:0;z-index:2;
+        
+                    a{height:50px;width:500px;float: left;line-height: 50px;color:black;
+                        .span1{margin-left:30px;font-size: 18px;}
+                        .span2{float: right;margin-right:20px;font-size:20px;}
+                    }
+                    div{height:auto;width:500px;float: left;
+                        a{height:50px;width:250px;float: left;line-height: 50px;color:black;
+                        img{height:40px;width:40px;display: inline-block;}
+                        span{margin-left: 30px;}
+                    }}
+                    
+                }
+            }
+        }
+        
+    }
+}
+//顶部导航栏以下
+.good-position-box{height:41px;background: #F5F5F5;
+    .good-position{height:41px;width:1226px;margin:0 auto;line-height:41px;
+        span{margin-right:10px;}
+    }
+}
+.good-basic-box{
+    .good-basic{width:1226px;margin:0 auto;padding-top:30px;min-height:874px;
+        .basic-left{width:792px;height:550px;float: left;
+                .small-pic{float: left;
+                    div{margin-bottom: 20px;border:1px gray solid}
+                    img{height:60px;width:60px;}
+                }
+                .big-pic{float: left;margin-left:130px;
+                    img{height:450px;width:480px;}
+                    }
+        }
+        .basic-right{float: left;width:434px;}
+    }
+}

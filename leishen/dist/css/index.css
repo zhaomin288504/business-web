@@ -1,0 +1,889 @@
+@charset "UTF-8";
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666;
+  background: white; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+#topbox {
+  background: #272727; }
+  #topbox #top {
+    height: 40px;
+    width: 1226px;
+    margin: 0 auto;
+    position: relative; }
+    #topbox #top .topnav {
+      height: 40px;
+      width: 752px;
+      float: left;
+      line-height: 40px; }
+      #topbox #top .topnav a {
+        color: white; }
+      #topbox #top .topnav span {
+        color: white;
+        width: 21.33px;
+        display: inline-block;
+        text-align: center; }
+    #topbox #top a, #topbox #top span {
+      color: white;
+      display: inline-block;
+      height: 40px;
+      line-height: 40px; }
+    #topbox #top span {
+      width: 21.33px;
+      text-align: center; }
+    #topbox #top .first {
+      margin-left: 190px; }
+    #topbox #top .last {
+      width: 120px;
+      background: #424242;
+      text-align: center; }
+
+.car_msg {
+  height: 100px;
+  width: 250px;
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  background: white;
+  line-height: 100px;
+  text-align: center;
+  display: none;
+  z-index: 1; }
+
+#headerbox {
+  background: #141414;
+  height: 92px;
+  padding-bottom: 10px; }
+  #headerbox #head {
+    width: 1226px;
+    height: 92px;
+    margin: 0 auto;
+    position: relative; }
+    #headerbox #head a {
+      height: 70px;
+      width: 234px;
+      position: absolute;
+      bottom: 10px; }
+    #headerbox #head #search {
+      position: absolute;
+      right: 0;
+      bottom: 20px;
+      height: 44px; }
+      #headerbox #head #search input {
+        height: 42px;
+        width: 422px;
+        border-color: gray;
+        float: left;
+        background: #141414;
+        color: white;
+        text-indent: 150px; }
+      #headerbox #head #search .search {
+        height: 42px;
+        border: 1px solid gray;
+        display: inline-block;
+        background: #141414;
+        border-left: none;
+        width: 60px;
+        text-align: center;
+        line-height: 42px;
+        cursor: pointer; }
+
+#navbox {
+  background: #141414;
+  height: 38px;
+  border-bottom: #00eef3 2px solid;
+  position: relative; }
+  #navbox #nav {
+    width: 1226px;
+    height: 38px;
+    margin: 0 auto; }
+    #navbox #nav .first-title {
+      line-height: 38px;
+      background: #00eef3;
+      height: 38px;
+      width: 234px;
+      color: gray;
+      float: left;
+      z-index: 2; }
+      #navbox #nav .first-title .first-title-img {
+        float: right;
+        margin-right: 20px;
+        margin-top: 15px; }
+      #navbox #nav .first-title span {
+        margin-left: 30px;
+        font-size: 14px; }
+    #navbox #nav .topnav-title {
+      color: white;
+      font-size: 17px;
+      padding-left: 22px;
+      line-height: 38px;
+      height: 38px;
+      display: inline-block; }
+      #navbox #nav .topnav-title .nav_list {
+        height: 234px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 38px;
+        display: none;
+        z-index: 10;
+        background: white; }
+        #navbox #nav .topnav-title .nav_list ._good {
+          height: 234px;
+          width: 16.66%;
+          float: left; }
+          #navbox #nav .topnav-title .nav_list ._good div {
+            width: 100%;
+            margin-top: 5px;
+            text-align: center; }
+            #navbox #nav .topnav-title .nav_list ._good div img {
+              display: inline-block;
+              height: 150px;
+              width: 150px; }
+          #navbox #nav .topnav-title .nav_list ._good .title {
+            height: 20px;
+            line-height: 20px; }
+          #navbox #nav .topnav-title .nav_list ._good .price {
+            height: 20px;
+            line-height: 20px;
+            color: skyblue; }
+
+#listbox {
+  height: 450px;
+  position: absolute;
+  top: 38px;
+  width: 234px;
+  display: block;
+  z-index: 5; }
+  #listbox #list {
+    height: 450px;
+    width: 234px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+    #listbox #list ul {
+      width: 234px;
+      height: 450px;
+      background: #141414;
+      opacity: 1;
+      display: block;
+      float: left; }
+      #listbox #list ul .active {
+        background: #00eef3; }
+      #listbox #list ul li {
+        height: 50px;
+        width: 234px;
+        color: white;
+        font-size: 18px;
+        line-height: 50px; }
+        #listbox #list ul li span {
+          color: white; }
+        #listbox #list ul li .first {
+          margin-left: 35px; }
+        #listbox #list ul li .second {
+          font-size: 20px;
+          float: right;
+          margin-right: 20px; }
+        #listbox #list ul li #_list {
+          height: 450px;
+          width: 500px;
+          float: left;
+          background: white;
+          display: none;
+          position: absolute;
+          left: 234px;
+          top: 0;
+          z-index: 2; }
+          #listbox #list ul li #_list a {
+            height: 50px;
+            width: 500px;
+            float: left;
+            line-height: 50px;
+            color: black; }
+            #listbox #list ul li #_list a .span1 {
+              margin-left: 30px;
+              font-size: 18px; }
+            #listbox #list ul li #_list a .span2 {
+              float: right;
+              margin-right: 20px;
+              font-size: 20px; }
+          #listbox #list ul li #_list div {
+            height: auto;
+            width: 500px;
+            float: left; }
+            #listbox #list ul li #_list div a {
+              height: 50px;
+              width: 250px;
+              float: left;
+              line-height: 50px;
+              color: black; }
+              #listbox #list ul li #_list div a img {
+                height: 40px;
+                width: 40px;
+                display: inline-block; }
+              #listbox #list ul li #_list div a span {
+                margin-left: 30px; }
+
+#banner {
+  height: 460px;
+  background: pink;
+  position: relative; }
+  #banner ol {
+    z-index: 1;
+    height: 15px;
+    width: 420px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 390px; }
+    #banner ol li {
+      float: left;
+      background: white;
+      width: 50px;
+      height: 10px;
+      margin-right: 20px; }
+    #banner ol .active {
+      background: orange; }
+  #banner ul {
+    height: 100%;
+    width: 100%;
+    position: relative; }
+    #banner ul li {
+      height: 100%;
+      width: 100%;
+      position: absolute; }
+      #banner ul li a {
+        height: 100%;
+        width: 100%;
+        float: left; }
+        #banner ul li a img {
+          height: 100%;
+          width: 100%;
+          float: left; }
+
+.mainbox {
+  width: 100%;
+  height: auto;
+  background: #F5F5F5;
+  margin-bottom: 20px; }
+  .mainbox .main {
+    width: 1226px;
+    margin: 0 auto;
+    height: auto; }
+    .mainbox .main .first_session {
+      width: 1226px;
+      height: 170px;
+      margin-top: 15px; }
+      .mainbox .main .first_session div {
+        float: left; }
+      .mainbox .main .first_session .func_list {
+        width: 234px;
+        height: 170px; }
+        .mainbox .main .first_session .func_list ul {
+          width: 234px;
+          height: 170px;
+          background: skyblue; }
+          .mainbox .main .first_session .func_list ul li {
+            height: 50%;
+            width: 50%;
+            float: left;
+            padding: 10px 17px;
+            text-align: center; }
+            .mainbox .main .first_session .func_list ul li a {
+              text-align: center;
+              display: inline-block;
+              position: relative; }
+              .mainbox .main .first_session .func_list ul li a img {
+                height: 24px;
+                width: 24px;
+                margin: auto;
+                margin-top: 15px; }
+      .mainbox .main .first_session .first_session_right {
+        height: 170px;
+        width: 990px;
+        margin-left: 2px; }
+        .mainbox .main .first_session .first_session_right div {
+          height: 170px;
+          width: 300px;
+          margin-left: 30px;
+          background: #141414; }
+          .mainbox .main .first_session .first_session_right div .title {
+            margin-left: 15px;
+            margin-right: 180px;
+            font-size: 18px; }
+          .mainbox .main .first_session .first_session_right div span {
+            color: #00eef3;
+            margin-left: 15px; }
+          .mainbox .main .first_session .first_session_right div a {
+            color: white; }
+    .mainbox .main h2 {
+      height: 58px;
+      width: 1226px;
+      font-size: 22px;
+      line-height: 58px; }
+    .mainbox .main .second_session {
+      height: 341px;
+      width: 1226px; }
+      .mainbox .main .second_session .second_session_left {
+        height: 340px;
+        width: 232px;
+        float: left;
+        background: cyan; }
+        .mainbox .main .second_session .second_session_left div {
+          margin: 10px auto; }
+        .mainbox .main .second_session .second_session_left .title {
+          height: 40px;
+          font-size: 20px;
+          line-height: 40px;
+          text-align: center; }
+        .mainbox .main .second_session .second_session_left .img {
+          width: 34px;
+          height: 53px; }
+        .mainbox .main .second_session .second_session_left .warning {
+          height: 40px;
+          font-size: 20px;
+          line-height: 40px;
+          text-align: center; }
+        .mainbox .main .second_session .second_session_left .time {
+          height: 46px;
+          width: 178px; }
+          .mainbox .main .second_session .second_session_left .time div {
+            float: left; }
+          .mainbox .main .second_session .second_session_left .time .maohao {
+            height: 46px;
+            width: 20px;
+            line-height: 46px;
+            color: #605751;
+            font-size: 30px;
+            text-align: center; }
+          .mainbox .main .second_session .second_session_left .time .hour, .mainbox .main .second_session .second_session_left .time .sec, .mainbox .main .second_session .second_session_left .time .min {
+            height: 46px;
+            width: 46px;
+            background: #605751;
+            color: white;
+            text-align: center;
+            line-height: 46px;
+            font-size: 30px; }
+      .mainbox .main .second_session .second_session_right {
+        height: 341px;
+        width: 994px;
+        float: left; }
+        .mainbox .main .second_session .second_session_right ul {
+          height: 341px;
+          width: 994px;
+          overflow: hidden; }
+          .mainbox .main .second_session .second_session_right ul li {
+            height: 340px;
+            width: 230px;
+            margin-left: 18.5px;
+            float: left;
+            background: white;
+            border-top: red 1px solid;
+            text-align: center; }
+            .mainbox .main .second_session .second_session_right ul li img {
+              margin: 35px auto 15px; }
+            .mainbox .main .second_session .second_session_right ul li h3 {
+              margin-top: 25px;
+              font-size: 25px; }
+            .mainbox .main .second_session .second_session_right ul li span {
+              margin-top: 20px;
+              display: inline-block;
+              font-size: 20px; }
+            .mainbox .main .second_session .second_session_right ul li .prePrice {
+              text-decoration: line-through; }
+    .mainbox .main .third_title {
+      height: 58px;
+      width: 1226px;
+      font-size: 22px;
+      line-height: 58px;
+      position: relative;
+      background: #F5F5F5; }
+      .mainbox .main .third_title span {
+        float: left; }
+      .mainbox .main .third_title ul {
+        float: right; }
+        .mainbox .main .third_title ul li {
+          float: left;
+          margin-left: 35px;
+          transition: 2s; }
+          .mainbox .main .third_title ul li a {
+            font-size: 20px; }
+          .mainbox .main .third_title ul li .detail_box {
+            height: 614px;
+            width: 744px;
+            position: absolute;
+            display: none;
+            top: 58px;
+            right: 0; }
+            .mainbox .main .third_title ul li .detail_box .detail {
+              height: 300px;
+              width: 240px;
+              background: white;
+              margin-left: 5px;
+              float: left; }
+              .mainbox .main .third_title ul li .detail_box .detail .img {
+                height: 200px;
+                width: 200px;
+                text-align: center;
+                margin: 20px; }
+              .mainbox .main .third_title ul li .detail_box .detail .des {
+                font-size: 20px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+              .mainbox .main .third_title ul li .detail_box .detail .price {
+                font-size: 18px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+              .mainbox .main .third_title ul li .detail_box .detail .evaluate {
+                font-size: 16px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+    .mainbox .main .third_session {
+      background: #F5F5F5; }
+    .mainbox .main .forth_title {
+      height: 58px;
+      width: 1226px;
+      font-size: 22px;
+      line-height: 58px;
+      position: relative;
+      background: #F5F5F5; }
+      .mainbox .main .forth_title span {
+        float: left; }
+      .mainbox .main .forth_title ul {
+        float: right; }
+        .mainbox .main .forth_title ul li {
+          float: left;
+          margin-left: 35px;
+          transition: 2s; }
+          .mainbox .main .forth_title ul li a {
+            font-size: 20px; }
+          .mainbox .main .forth_title ul li .detail_box {
+            height: 614px;
+            width: 744px;
+            position: absolute;
+            display: none;
+            top: 58px;
+            right: 0; }
+            .mainbox .main .forth_title ul li .detail_box .detail {
+              height: 300px;
+              width: 240px;
+              background: white;
+              margin-left: 5px;
+              float: left; }
+              .mainbox .main .forth_title ul li .detail_box .detail .img {
+                height: 200px;
+                width: 200px;
+                text-align: center;
+                margin: 20px; }
+              .mainbox .main .forth_title ul li .detail_box .detail .des {
+                font-size: 20px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+              .mainbox .main .forth_title ul li .detail_box .detail .price {
+                font-size: 18px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+              .mainbox .main .forth_title ul li .detail_box .detail .evaluate {
+                font-size: 16px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+    .mainbox .main .forth_session {
+      background: #F5F5F5;
+      height: 614px; }
+      .mainbox .main .forth_session img {
+        display: block;
+        height: 300px;
+        width: 480px; }
+      .mainbox .main .forth_session :nth-of-type(1) {
+        margin-bottom: 14px; }
+    .mainbox .main .fifth_title {
+      height: 58px;
+      width: 1226px;
+      font-size: 22px;
+      line-height: 58px;
+      position: relative;
+      background: #F5F5F5; }
+      .mainbox .main .fifth_title span {
+        float: left; }
+      .mainbox .main .fifth_title ul {
+        float: right; }
+        .mainbox .main .fifth_title ul li {
+          float: left;
+          margin-left: 35px;
+          transition: 2s; }
+          .mainbox .main .fifth_title ul li a {
+            font-size: 20px; }
+          .mainbox .main .fifth_title ul li .detail_box {
+            height: 614px;
+            width: 744px;
+            position: absolute;
+            display: none;
+            top: 58px;
+            right: 0; }
+            .mainbox .main .fifth_title ul li .detail_box .detail {
+              height: 300px;
+              width: 240px;
+              background: white;
+              margin-left: 5px;
+              float: left; }
+              .mainbox .main .fifth_title ul li .detail_box .detail .img {
+                height: 200px;
+                width: 200px;
+                text-align: center;
+                margin: 20px; }
+              .mainbox .main .fifth_title ul li .detail_box .detail .des {
+                font-size: 20px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+              .mainbox .main .fifth_title ul li .detail_box .detail .price {
+                font-size: 18px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+              .mainbox .main .fifth_title ul li .detail_box .detail .evaluate {
+                font-size: 16px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                margin-bottom: 5xp; }
+    .mainbox .main .fifth_session {
+      background: #F5F5F5;
+      height: 614px; }
+      .mainbox .main .fifth_session img {
+        display: block;
+        height: 300px;
+        width: 480px; }
+      .mainbox .main .fifth_session :nth-of-type(1) {
+        margin-bottom: 14px; }
+    .mainbox .main .sixth_title {
+      background: #F5F5F5; }
+      .mainbox .main .sixth_title div {
+        float: right; }
+        .mainbox .main .sixth_title div span {
+          background: white;
+          margin-left: 15px;
+          height: 25px;
+          line-height: 25px;
+          text-align: center;
+          width: 40px;
+          display: inline-block;
+          cursor: pointer; }
+    .mainbox .main .sixth_session {
+      height: 283px;
+      overflow: hidden;
+      position: relative; }
+      .mainbox .main .sixth_session ul {
+        width: 1736px;
+        height: 283px;
+        background: #F5F5F5;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        .mainbox .main .sixth_session ul li {
+          height: 283px;
+          width: 240px;
+          margin-right: 6.5px;
+          float: left;
+          background: white;
+          padding-top: 10px;
+          cursor: pointer; }
+          .mainbox .main .sixth_session ul li div {
+            text-align: center;
+            margin-bottom: 10px; }
+            .mainbox .main .sixth_session ul li div img {
+              margin-left: 20px; }
+    .mainbox .main .seventh_title {
+      background: #F5F5F5;
+      /* div{float:right;
+                    span{background: white;margin-left: 15px;height:25px;line-height: 25px;
+                        text-align: center;width:40px;display: inline-block;cursor: pointer;
+                    }
+                } */ }
+    .mainbox .main .seventh_session {
+      height: 380px;
+      overflow: hidden;
+      position: relative; }
+      .mainbox .main .seventh_session ul {
+        width: 1900px;
+        height: 380px;
+        background: #F5F5F5;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        .mainbox .main .seventh_session ul li {
+          height: 380px;
+          width: 299px;
+          margin-right: 10px;
+          float: left;
+          background: white;
+          padding-top: 10px;
+          cursor: pointer; }
+          .mainbox .main .seventh_session ul li div {
+            text-align: center;
+            margin-bottom: 35px; }
+            .mainbox .main .seventh_session ul li div img {
+              height: 220px;
+              width: 220px;
+              margin-left: 40px; }
+          .mainbox .main .seventh_session ul li .des {
+            padding: 0 30px; }
+    .mainbox .main .last_title {
+      background: #F5F5F5; }
+      .mainbox .main .last_title div {
+        float: right; }
+        .mainbox .main .last_title div span {
+          background: white;
+          margin-left: 15px;
+          height: 25px;
+          line-height: 25px;
+          text-align: center;
+          width: 40px;
+          display: inline-block;
+          cursor: pointer; }
+    .mainbox .main .last_session {
+      height: 283px;
+      overflow: hidden;
+      position: relative; }
+      .mainbox .main .last_session ul {
+        width: 1900px;
+        height: 283px;
+        background: #F5F5F5;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        .mainbox .main .last_session ul li {
+          height: 283px;
+          width: 299px;
+          margin-right: 10px;
+          float: left;
+          background: white;
+          padding-top: 10px;
+          cursor: pointer; }
+          .mainbox .main .last_session ul li div {
+            text-align: center;
+            margin-bottom: 10px; }
+            .mainbox .main .last_session ul li div img {
+              height: 180px;
+              width: 299px; }
+
+.footerBox {
+  background: #272727;
+  height: 272px; }
+  .footerBox .footer {
+    height: 272px;
+    width: 1226px;
+    margin: 0 auto; }
+    .footerBox .footer .footer_top {
+      height: 80px;
+      width: 1226px;
+      padding: 27px 0;
+      border-bottom: 1px solid #9999; }
+      .footerBox .footer .footer_top ul {
+        height: 25px;
+        width: 1226px; }
+        .footerBox .footer .footer_top ul li {
+          height: 25px;
+          width: 242.73px;
+          text-align: center;
+          border-left: 1px solid #9999;
+          float: left;
+          font-size: 16px; }
+          .footerBox .footer .footer_top ul li a {
+            color: #9999; }
+            .footerBox .footer .footer_top ul li a img {
+              display: inline-block; }
+        .footerBox .footer .footer_top ul :nth-of-type(1) {
+          border-left: none; }
+    .footerBox .footer .footer_bottom {
+      height: 192px;
+      width: 1226px;
+      padding: 40px 0; }
+      .footerBox .footer .footer_bottom .fb {
+        float: left; }
+      .footerBox .footer .footer_bottom .fb-left {
+        width: 550px;
+        height: 112px; }
+        .footerBox .footer .footer_bottom .fb-left dl {
+          float: left;
+          height: 112px;
+          width: 110px; }
+          .footerBox .footer .footer_bottom .fb-left dl dt {
+            margin-bottom: 26px; }
+          .footerBox .footer .footer_bottom .fb-left dl a {
+            display: block;
+            color: #9999;
+            margin-top: 10px; }
+      .footerBox .footer .footer_bottom .fb-center {
+        height: 112px;
+        width: 416px; }
+        .footerBox .footer .footer_bottom .fb-center .col-link {
+          float: left;
+          height: 112px;
+          width: 104px; }
+          .footerBox .footer .footer_bottom .fb-center .col-link p {
+            margin-bottom: 20px; }
+          .footerBox .footer .footer_bottom .fb-center .col-link img {
+            height: 70px;
+            width: 70px; }
+      .footerBox .footer .footer_bottom .fb-right {
+        height: 112px;
+        width: 260px;
+        border-left: 1px solid #9999; }
+        .footerBox .footer .footer_bottom .fb-right p {
+          text-align: center; }
+        .footerBox .footer .footer_bottom .fb-right :nth-child(1) {
+          color: #00eef3;
+          font-size: 20px; }
+        .footerBox .footer .footer_bottom .fb-right :nth-child(2) {
+          font-size: 12px; }
+        .footerBox .footer .footer_bottom .fb-right :nth-child(3) {
+          color: #00eef3;
+          font-size: 20px; }
+        .footerBox .footer .footer_bottom .fb-right :nth-child(4) {
+          font-size: 12px; }
+        .footerBox .footer .footer_bottom .fb-right :nth-child(5) {
+          margin: 20px auto 0;
+          width: 180px;
+          color: #00eef3;
+          font-size: 20px;
+          border: 1px solid #00eef3; }
+
+.bottomBox {
+  height: 80px;
+  background: #141414;
+  color: #999999; }
+  .bottomBox .bottom {
+    height: 80px;
+    padding: 20px 0;
+    width: 1226px;
+    margin: 0 auto;
+    position: relative; }
+    .bottomBox .bottom ul li {
+      float: left; }
+      .bottomBox .bottom ul li a {
+        color: #999999; }
+    .bottomBox .bottom p {
+      clear: both;
+      font-size: 12px; }
+    .bottomBox .bottom div {
+      position: absolute;
+      top: 20px;
+      right: 0; }
+      .bottomBox .bottom div img {
+        display: inline-block;
+        height: 26px;
+        width: 70px;
+        margin-left: 20px; }
+
+.guide {
+  position: absolute;
+  z-index: 2;
+  background: #999999;
+  height: 240px; }
+  .guide img {
+    height: 40px;
+    width: 40px; }
+  .guide div:hover {
+    background: #00eef3; }
+  .guide div:nth-of-type(1) {
+    height: 50px;
+    width: 50px;
+    border-bottom: 3px #141414 solid; }
+    .guide div:nth-of-type(1) img {
+      margin: 0 auto; }
+  .guide div:nth-of-type(2) {
+    height: 70px;
+    width: 50px;
+    border-bottom: 3px #141414 solid; }
+    .guide div:nth-of-type(2) img {
+      margin: 0 auto; }
+    .guide div:nth-of-type(2) p {
+      font-size: 12px; }
+  .guide div:nth-of-type(3) {
+    height: 70px;
+    width: 50px;
+    border-bottom: 3px #141414 solid; }
+    .guide div:nth-of-type(3) img {
+      margin: 0 auto; }
+    .guide div:nth-of-type(3) p {
+      font-size: 12px; }
+  .guide div:nth-of-type(4) {
+    height: 50px;
+    width: 50px; }
+    .guide div:nth-of-type(4) a {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      font-size: 20px;
+      text-align: center;
+      line-height: 50px; }

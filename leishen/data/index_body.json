@@ -1,0 +1,118 @@
+[
+
+{"title":"限时秒杀","code1":"&lt;","code2":"&gt;",
+    "child":[
+        {"img":"../images/discount1.jpg","des":"911黑武士","nowprice":"￥99","prePrice":"￥119"},
+        {"img":"../images/discount2.jpg","des":"雷神猛兽","nowprice":"￥99","prePrice":"￥119"},
+        {"img":"../images/discount4.jpg","des":"雷神黑幽灵","nowprice":"￥99","prePrice":"￥119"},
+        {"img":"../images/discount4.jpg","des":"雷神MT暗杀星","nowprice":"￥99","prePrice":"￥119"}
+        
+    ]
+},
+
+{
+    "subtitle":[{"name":"热门","child":[
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥9999","evaluate":"99人评价"},
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥9999","evaluate":"99人评价"},
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥9999","evaluate":"99人评价"}
+                ]},
+                {"name":"GTX1050Ti","child":[
+                    {"img":"../images/body_frame.jpg","des":"雷神911ME影极星","price":"￥7899","evaluate":"99人评价"},
+                    {"img":"../images/body_frame.jpg","des":"雷神911ME影极星","price":"￥7899","evaluate":"99人评价"},
+                    {"img":"../images/body_frame.jpg","des":"雷神911ME影极星","price":"￥7899","evaluate":"99人评价"}
+                ]},
+                {"name":"GTX1060","child":[
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥7899","evaluate":"99人评价"},
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥9999","evaluate":"99人评价"},
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥9999","evaluate":"99人评价"}
+                ]},
+                {"name":"GTX1060Ti","child":[
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥9999","evaluate":"99人评价"},
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥9999","evaluate":"99人评价"},
+                    {"img":"../images/hot.jpg","des":"雷神911ME影极星","price":"￥9999","evaluate":"99人评价"}
+                ]},
+                {"name":"查看全部&gt;"}],
+    "left_img":"../images/body_laptop.jpg"
+},
+{
+    "subtitle":[{"name":"热门","child":[
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"},
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"},
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"}
+                ]},
+                {"name":"电竞显示器","child":[
+                    {"img":"../images/display.jpg","des":"","price":"￥7999","evaluate":"99人评价"},
+                    {"img":"../images/display.jpg","des":"","price":"￥7999","evaluate":"99人评价"},
+                    {"img":"../images/display.jpg","des":"","price":"￥7999","evaluate":"99人评价"}
+                ]},
+                {"name":"GTX1070Ti","child":[
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"},
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"},
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"}
+                ]},
+                {"name":"RTX2060","child":[
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"},
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"},
+                    {"img":"../images/body_frame.jpg","des":"雷神911黑武士A1573s","price":"￥7999","evaluate":"99人评价"}
+                ]},
+                {"name":"查看全部&gt;"}],
+            "left_img":[{"img":"../images/com_topimg.jpg"},{"img":"../images/combottomimg.jpg"}]
+},
+{
+    "subtitle":[{"name":"热门","child":[
+                    {"img":"../images/body_mouse.jpg","des":"雷神无线鼠标","price":"￥99","evaluate":"99人评价"},
+                    {"img":"../images/body_keyBoard.jpg","des":"雷神机械键盘","price":"￥999","evaluate":"99人评价"},
+                    {"img":"../images/body_bag.jpg","des":"雷神至尊箱包","price":"￥99","evaluate":"99人评价"}
+                ]},
+                {"name":"雷神鼠标","child":[
+                    {"img":"../images/body_mouse.jpg","des":"雷神无线鼠标","price":"￥99","evaluate":"99人评价"},
+                    {"img":"../images/body_mouse.jpg","des":"雷神无线鼠标","price":"￥99","evaluate":"99人评价"},
+                    {"img":"../images/body_mouse.jpg","des":"雷神无线鼠标","price":"￥99","evaluate":"99人评价"}
+                ]},
+                {"name":"机械键盘","child":[
+                    {"img":"../images/body_keyBoard.jpg","des":"雷神机械鼠标","price":"￥999","evaluate":"99人评价"},
+                    {"img":"../images/body_keyBoard.jpg","des":"雷神机械鼠标","price":"￥999","evaluate":"99人评价"},
+                    {"img":"../images/body_keyBoard.jpg","des":"雷神机械鼠标","price":"￥999","evaluate":"99人评价"}
+                ]},
+                {"name":"背包","child":[
+                    {"img":"../images/body_bag.jpg","des":"雷神至尊箱包","price":"￥299","evaluate":"99人评价"},
+                    {"img":"../images/body_bag.jpg","des":"雷神至尊箱包","price":"￥299","evaluate":"99人评价"},
+                    {"img":"../images/body_bag.jpg","des":"雷神至尊箱包","price":"￥299","evaluate":"99人评价"}
+                ]},
+                {"name":"查看全部&gt;"}],
+    "left_img":[{"img":"../images/out_topimg.jpg"},{"img":"../images/out_bottomimg.jpg"}]
+},
+{
+    "child":[
+        {"img":"../images/service1.jpg","des":"雷神专业服务值得用","price":"￥999"},
+        {"img":"../images/service2.jpg","des":"雷神专业服务值得用","price":"￥999"},
+        {"img":"../images/service3.jpg","des":"雷神专业服务值得用","price":"￥999"},
+        {"img":"../images/service4.jpg","des":"雷神专业服务值得用","price":"￥999"},
+        {"img":"../images/service5.jpg","des":"雷神专业服务值得用","price":"￥999"},
+        {"img":"../images/service6.jpg","des":"雷神专业服务值得用","price":"￥999"},
+        {"img":"../images/service7.jpg","des":"雷神专业服务值得用","price":"￥999"}
+    ]
+},
+{
+    "child":[
+        {"img":"../images/body_keyBoard.jpg","des":"天生尤物,用上这块产品五杀了，超神了,和小姐姐牵手成功了，操作666","price":"￥1999"},
+        {"img":"../images/body_laptop.jpg","des":"天生尤物,用上这块产品五杀了，超神了,和小姐姐牵手成功了，操作666","price":"￥1999"},
+        {"img":"../images/body_mouse.jpg","des":"天生尤物,用上这块产品五杀了，超神了,和小姐姐牵手成功了，操作666","price":"￥1999"},
+        {"img":"../images/body_frame.jpg","des":"天生尤物,用上这块产品五杀了，超神了,和小姐姐牵手成功了，操作666","price":"￥1999"}
+    ]
+},
+{
+    "child":[
+        {"img":"../images/fan1.png","des":"2019同城粉丝会"},
+        {"img":"../images/fan2.png","des":"2019同城粉丝会"},
+        {"img":"../images/fan3.jpg","des":"2019同城粉丝会"},
+        {"img":"../images/fan4.jpg","des":"2019同城粉丝会"},
+        {"img":"../images/fan4.jpg","des":"2019同城粉丝会"},
+        {"img":"../images/fan4.jpg","des":"2019同城粉丝会"}
+    ]
+}
+
+
+
+
+]

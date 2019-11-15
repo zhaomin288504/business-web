@@ -1,0 +1,23 @@
+{
+    "classfy-name":"游戏笔记本",
+    "good-name":"雷神911Air星战豪华版",
+    "good-pic":[
+                    "../images/good-pic1.png",
+                    "../images/good-pic2.png",
+                    "../images/good-pic3.png",
+                    "../images/good-pic4.png",
+                    "../images/good-pic5.png"
+                ],
+    "good-des":[{"name":"雷神911Air星战豪华版","content":"全面屏游戏本，芯9代六核I7-9750H处理器，GTX1050独显，8G内存，512G固态，IPS高清屏，白色背光键盘【升级16G内存加399，升级1T机械硬盘加300，请购买搭配套餐】"},
+                {"name":"官方价格","content":"6299.0"},
+                {"name":"商品库存","content":"13"},
+                {"name":"此商品赠送","content":""},
+                {"name":"赠品","content":""},
+                {"name":"搭配套餐"},
+                {"name":"增值服务"},
+                {"name":"数量"},
+                {"name":"数量"},
+                {"name":"花呗分期"}
+            ]
+
+}
